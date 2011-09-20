@@ -1,6 +1,12 @@
 <?php
 class DpdApi {
 
+    /*
+     * DPD - class provide access to DPD webservice
+     * Darek Gorecki (gorecki@cd2.pl), 09.2011
+     * Based on official documentation (http://dpd.com.pl)
+     */
+    
     private $authData = null;
     private $host = null;
     private $soapClient = null;
